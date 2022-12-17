@@ -1,0 +1,22 @@
+{
+  "name": "sd-0x-project-talker-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --ignore 'src/talker.json'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "4.0.0",
+    "express": "4.17.1",
+    "express-rescue": "1.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
